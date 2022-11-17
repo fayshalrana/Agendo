@@ -1,0 +1,1023 @@
+/* // X-Small devices  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* header part start here  */
+    #header {
+        background: #177bbb;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    .navbar-toggler-icon {
+        width: 1rem;
+        height: 2rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* banner part start here  */
+    .bnner_overly {
+        padding: 150px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 20px;
+    }
+
+    /* service part start here  */
+    .service_head h3 {
+        font-size: 15px;
+    }
+
+    .service_contant {
+        margin-top: 40px;
+    }
+
+    .service_item {
+        margin: 0 20px;
+    }
+
+    .service_item_img i {
+        font-size: 20px;
+    }
+
+    .service_item h3 {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 20px;
+        padding-bottom: 13px;
+    }
+
+    .service_item p {
+        font-size: 11px;
+        padding: 0 20px;
+    }
+
+    /* showcase part start here  */
+    .showcase_overly {
+        padding-top: 40px;
+    }
+
+    .showcase_head h3 {
+        font-size: 15px;
+    }
+
+    .showcase_head p {
+        font-size: 13px;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+
+    .shwcs_btn {
+        font-size: 9px;
+        padding: 10px 21px;
+        border-radius: 4px;
+    }
+
+    .showcase_img {
+        margin-top: 25px;
+    }
+
+    /* testimonial part start here  */
+    #team {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+
+    .testimonial_overly {
+        padding: 46px 0;
+    }
+
+    .testimonial_item h3 {
+        font-size: 14px;
+        padding: 27px 20px;
+    }
+
+    .testimonial_item p {
+        font-size: 11px;
+    }
+
+    /* team part start here  */
+    .team_contant {
+        margin-top: 20px;
+    }
+
+    .team_item {
+        margin-bottom: 47px;
+        border-bottom: 1px solid black;
+    }
+
+    .team_dtls h3 {
+        font-size: 13px;
+        padding-top: 14px;
+        padding-bottom: 2px;
+    }
+
+    /* skill part start here  */
+    .skill_overly {
+        padding: 35px 0;
+    }
+
+    .skill_head h3 {
+        font-size: 15px;
+    }
+
+    .skill_contant {
+        padding-top: 20px;
+    }
+
+    .skill_text {
+        text-align: center;
+    }
+
+    .skill_text a {
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+
+    .skill_text p {
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+
+    .skill_contant {
+        padding-top: 20px;
+        gap: 68px;
+    }
+
+    .bar {
+        display: flex;
+        gap: 14px;
+        margin-bottom: 23px;
+    }
+
+    .bar_info {
+        text-align: left;
+        width: 54px;
+        font-size: 13px;
+    }
+
+    .progress_line {
+        height: 13px;
+    }
+
+    /* our service  start here */
+    .main_service_overly {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    .main_service_head h3 {
+        font-size: 15px;
+    }
+
+    .main_service_head p {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 16px;
+    }
+
+    .main_service_item {
+        display: flex;
+        gap: 30px;
+        padding: 0px 0;
+        margin: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main_item_text h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .main_item_text p {
+        font-size: 12px;
+    }
+
+    /* review part start here  */
+    .review_contant {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* protfoilio part start here  */
+    #protfolio {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    .protfolio_head h3 {
+        font-size: 15px;
+    }
+
+    .portfoilo_btn button {
+        font-size: 13px;
+        padding: 5px 8px;
+
+    }
+
+    .portfoilo_btn {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .protfoilo_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        margin-top: 20px;
+    }
+    .protfoilo_overly {
+        bottom: -38%;
+    }
+
+    .prt_img_buttn button {
+        background: none;
+        border: 1px solid #177bbb;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: #177bbb;
+        padding: 9px 21px;
+        transition: .3s;
+    }
+
+    .prt_img_buttn {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* logo part start here  */
+    #partner {
+        padding: 40px 0;
+    }
+
+    .partner_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-gap: 15px;
+    }
+
+    /* last blog part start here  */
+    #last_blog {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .blog_head h3 {
+        font-size: 15px;
+    }
+
+    .last_blog_body {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    .blog_hvr_left span {
+        font-size: 12px;
+    }
+
+    .blog_hvr_right span {
+        font-size: 12px;
+    }
+
+    .blog_item_text h3 {
+        font-size: 15px;
+        padding-top: 12px;
+    }
+
+    .blog_item_text p {
+        font-size: 12px;
+    }
+
+    /* map part start here  */
+    .sit_map iframe {
+        height: 240px;
+    }
+
+    /* contact part start here  */
+    #contact {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .contact_info_head h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact_info_head p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .contact_bttm_itm {
+        text-align: center;
+    }
+
+    .contact_bttm_itm p {
+        margin-bottom: 12px;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: #177bbb;
+    }
+
+    .contact_right {
+        margin-top: 30px;
+    }
+
+    .contact_right_head h3 {
+        font-size: 15px;
+        padding-bottom: 29px;
+        text-align: center;
+    }
+
+    label input {
+        padding: 10px;
+        border: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* footer part srat here  */
+    .footer_icon {
+       
+        margin: 0 5px;
+    }
+
+    .footer_item a {
+        padding: 15px;
+        font-size: 15px;
+        color: white;
+    }
+
+    .copye_right p {
+        color: white;
+        font-size: 11px;
+    }
+
+    #footer {
+        padding: 30px 0;
+        background: #191919;
+    }
+    .footer_icon {
+        height: 50px !important;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+}
+
+/* // Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header part start here  */
+    #header {
+        background: #177bbb;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    .navbar-toggler-icon {
+        width: 1rem;
+        height: 2rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* banner part start here  */
+    .bnner_overly {
+        padding: 150px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+    }
+
+    /* service part start here  */
+    #service {
+        padding-top: 85px;
+        padding-bottom: 40px;
+    }
+
+    .service_head h3 {
+        font-size: 14px;
+    }
+
+    .service_item_img i {
+        font-size: 30px;
+    }
+
+    .service_item {
+        padding: 20px 0;
+        transition: .3s;
+
+    }
+
+    .service_item h3 {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+
+    .service_item p {
+        font-size: 11px;
+        padding: 0 5px;
+    }
+
+    .srvs_items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    /* showcase part start here  */
+    .showcase_overly {
+        padding-top: 35px;
+    }
+
+    .showcase_head h3 {
+        font-size: 20px;
+    }
+
+    .showcase_head p {
+        font-size: 14px;
+        padding-top: 14px;
+        padding-bottom: 21px;
+    }
+
+    .shwcs_btn {
+        font-size: 11px;
+        padding: 10px 20px;
+    }
+
+    .testimonial_overly {
+        background: rgba(0, 0, 0, 0.905);
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .testimonial_item h3 {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        padding-top: 27px;
+        padding-bottom: 21px;
+    }
+
+    /* team part start here  */
+    .team_mmbr {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 30px;
+    }
+
+    .team_dtls h3 {
+        font-size: 13px;
+        padding-top: 17px;
+        padding-bottom: 4px;
+    }
+
+    .team_item {
+        margin-top: 30px;
+    }
+
+    /* skill part start here  */
+    .skill_overly {
+        padding: 40px 0;
+    }
+
+    .skill_head h3 {
+        font-size: 20px;
+    }
+
+    .skill_contant {
+        padding-top: 20px;
+    }
+
+    .skill_text p {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    .skill_text {
+        text-align: center;
+    }
+
+    .skill_text a {
+        padding: 10px 11px;
+        border: 1px solid #177bbb;
+        color: #177bbb;
+        transition: .3s;
+        font-size: 12px;
+    }
+
+    .skill_bar {
+        margin-top: 35px;
+    }
+
+    .bar_info {
+        text-align: right;
+        width: 0px;
+        font-size: 12px;
+    }
+
+    .progress_line {
+        height: 16px;
+    }
+
+    /* our service part start here  */
+    .main_service_head h3 {
+        font-size: 20px;
+    }
+
+    .main_service_contant {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main_service_head p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .main_service_contant {
+        text-align: center;
+    }
+
+    .main_service_item {
+        display: flex;
+        gap: 10px;
+        padding: 21px 0;
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .main_item_text h3 {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* review part start here  */
+    .review_contant {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #protfolio {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+
+    .protfolio_head h3 {
+        font-size: 20px;
+    }
+
+    .portfoilo_btn button {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    .protfoilo_body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 9px;
+        margin-top: 20px;
+    }
+
+    .protfoilo_overly {
+        bottom: -34%;
+        font-size: 12px;
+    }
+
+    .prt_img_buttn {
+        margin-top: 30px;
+    }
+
+    .prt_img_buttn button {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    /* logo part start here  */
+    #partner {
+        padding: 30px 0;
+    }
+
+    .partner_body {
+        grid-gap: 10px;
+    }
+
+    /* blog part start here  */
+    #last_blog {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+
+    .blog_head h3 {
+        font-size: 20px;
+    }
+
+    .last_blog_body {
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .blog_hvr_left span {
+        font-size: 14px;
+    }
+
+    .blog_img_hvr {
+        bottom: -56%;
+    }
+
+    .blog_hvr_right span {
+        font-size: 14px;
+    }
+
+    .blog_item_text h3 {
+        font-size: 15px;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+    .blog_item_text p {
+        font-size: 12px;
+    }
+
+    /* contact part start here  */
+    #contact {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+
+    .contact_info_head h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact_info_head p {
+        font-size: 14px;
+        padding: 27px 0;
+        text-align: center;
+    }
+
+    .contact_bttm_itm {
+        text-align: center;
+    }
+
+    .contact_bttm_itm p {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .contact_right {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .contact_right_head h3 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    label input {
+        padding: 8px 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+    /* footer part start here  */
+    .footer_item {
+        justify-content: center;
+    }
+
+    .footer_icon {
+ 
+    }
+
+    .copye_right p {
+        font-size: 13px;
+    }
+}
+
+/* // Medium  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header part start here  */
+    #header {
+        background: #177bbb;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* banner part start here  */
+    .bnner_overly {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+    }
+
+    /* service part start here  */
+    #service {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+
+    .service_head h3 {
+        font-size: 17px;
+    }
+
+    .service_contant {
+        margin-top: 40px;
+    }
+
+    .srvs_items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .service_item_img i {
+        font-size: 17px;
+        padding: 20px 18px;
+    }
+
+    .service_item h3 {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .service_item p {
+        font-size: 13px;
+        padding: 0 8px;
+    }
+
+    /* showpice part start here  */
+    .showcase_overly {
+        padding-top: 50px;
+    }
+
+    .showcase_head h3 {
+        font-size: 20px;
+    }
+
+    .showcase_head p {
+        font-size: 15px;
+        padding-top: 16px;
+        padding-bottom: 30px;
+    }
+
+    .shwcs_btn {
+        font-size: 12px;
+        padding: 13px 25px;
+
+    }
+
+    /* testimonial part start here  */
+    .testimonial_overly {
+        padding: 50px 0;
+    }
+
+    .tesimonial_img i {
+        padding: 14px;
+        font-size: 25px;
+    }
+
+    .testimonial_item h3 {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+
+    .testimonial_item h3 {
+        font-size: 15px;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+
+    /* team part start here  */
+    #team {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .team_mmbr {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .team_item_img img {
+        width: 90%;
+    }
+
+    .img_hvr {
+        height: 102%;
+        width: 88%;
+    }
+
+    /* skill part start here  */
+    .skill_overly {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .skill_text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .skill_text {
+        text-align: center;
+    }
+
+    .skill_text a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .skill_bar {
+        margin-top: 40px;
+    }
+
+    /* our service part start here  */
+    .main_service_head h3 {
+        font-size: 24px;
+    }
+
+    .main_service_head p {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    .main_service_contant {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main_service_head p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .main_service_contant {
+        text-align: center;
+    }
+
+    .main_service_item {
+        display: flex;
+        gap: 10px;
+        padding: 21px 0;
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .main_item_text h3 {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* reviw part start here  */
+
+    .review_contant {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    /* protfolio part start here  */
+    .protfoilo_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        margin-top: 45px;
+    }
+
+    /* logo part start here  */
+    .partner_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 50px;
+    }
+
+    /* contact part start here  */
+    .contact_info {
+        text-align: center;
+    }
+
+    .contact_right {
+        text-align: center;
+    }
+
+    label input {
+        text-align: center;
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+    /* footer part start here  */
+    .footer_item {
+        text-align: center;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+
+
+}
+
+/* // Large  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner part start here  */
+   #banner .bnner_overly {
+        padding: 200px 0 !important;
+    }
+    .banner_text h1 {
+        font-size: 50px;
+    }
+    /* main service part start here  */
+}
+.main_service_item {
+	flex-direction: column;
+}
+.main_item_img{
+    text-align: center;
+}
+.main_item_text{
+    text-align: center;
+}
+/* footer part start here  */
+.footer_icon {
+	height: 61px;
+}

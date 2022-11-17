@@ -1,0 +1,889 @@
+/* All common CSS start here  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* All common CSS end here  */
+
+/* banner part  CSS start here  */
+#banner {
+    background: url(../images/frst_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bnner_overly {
+    padding: 300px 0;
+    background: rgba(53, 52, 52, 0.604);
+}
+
+.banner_text h1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* banner part CSS end here  */
+
+/* header common CSS start here  */
+#header {
+    background: #177bbb;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Rochester', cursive;
+    color: white;
+}
+
+.collapse{
+    justify-content: flex-end;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.753);
+}
+.nav-link:hover{
+    color: white;
+}
+.active{
+    color: white !important;
+}
+/* header common CSS end here  */
+
+/* service part start here  */
+#service {
+    padding: 100px 0;
+    background: rgb(218, 218, 218);
+}
+
+.service_head h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.service_head h3 span {
+    color: #177bbb;
+}
+
+.service_contant {
+    margin-top: 80px;
+}
+
+.service_item {
+    padding: 20px 0;
+    transition: .3s;
+}
+
+.service_item_img i {
+    font-size: 35px;
+    padding: 27px 24px;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.service_item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+    padding-bottom: 22px;
+}
+
+.service_item p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 40px;
+}
+
+.service_item:hover {
+    border-radius: 5px;
+    box-shadow: -6px -6px 10px white, 4px 4px 10px gray;
+}
+
+.service_item:hover i {
+    background: #177bbb;
+    color: white;
+    border: 1px solid #177bbb;
+    cursor: pointer;
+
+}
+
+/* service part end here  */
+/* showcase part start here  */
+.showcase_overly {
+    background: url(../images/scnd_bg_overly.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.showcase_head h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.showcase_head p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 26px;
+    padding-bottom: 46px;
+}
+
+.shwcs_btn {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 30px;
+    border: none;
+    background: #177bbb;
+    color: white;
+    border-radius: 4px;
+}
+
+.showcase_img {
+    margin-top: 50px;
+}
+
+/* showcase part end here  */
+
+/* testimonial part start here  */
+#testimonial {
+    background: url(../images/3rd_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial_overly {
+    background: rgba(0, 0, 0, 0.905);
+    padding: 100px 0;
+}
+
+.tesimonial_img i {
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.testimonial_item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.testimonial_item p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #177bbb;
+}
+
+.testimonial_item p span {
+    margin-left: 20px;
+}
+
+.slick_slider {
+    position: relative;
+}
+
+
+.slick-dots {
+    text-align: center;
+    display: inline-block !important;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+
+.slick-dots li {
+    display: inline-block;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    padding: 5px;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+}
+
+.slick-active button {
+    background: #177bbb !important;
+}
+
+/* testimonial part end here  */
+
+/* team part start here  */
+#team {
+    padding: 100px 0;
+}
+
+.team_dtls h3 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 12px;
+}
+
+.team_dtls p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+
+.team_item_img {
+    position: relative;
+}
+
+.img_hvr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: rgba(23, 124, 187, 0.91);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.img_hvr i {
+    padding: 5px;
+    background: white;
+    color: #177bbb;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.fa-facebook-f {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.team_item:hover .img_hvr {
+    opacity: .9;
+    visibility: visible;
+}
+
+/* team part end here  */
+
+/* skill part start here  */
+#skill {
+    background: url(../images/4rth_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.skill_overly {
+    background: rgba(255, 255, 255, 0.903);
+    padding: 100px 0;
+}
+
+.skill_head {
+    text-align: center;
+}
+
+.skill_head h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.skill_contant {
+    padding-top: 44px;
+}
+
+.skill_text {
+    text-align: left;
+}
+
+.skill_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    padding-bottom: 40px;
+}
+
+.skill_text a {
+    padding: 15px 30px;
+    border: 1px solid #177bbb;
+    color: #177bbb;
+    transition: .3s;
+}
+
+.skill_text a:hover {
+    background: #177bbb;
+    color: white;
+}
+
+.bar {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 40px;
+}
+
+.bar_info {
+    text-align: right;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.progress_line {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: #c9ddea98;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress_line span {
+    position: absolute;
+    height: 100%;
+    background: #177bbb;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress_line.Design span {
+    width: 85%;
+}
+
+.progress_line.Research span {
+    width: 75%;
+}
+
+.progress_line.Marketing span {
+    width: 70%;
+}
+
+.progress_line.Strategy span {
+    width: 90%;
+}
+
+.progress_line span::before {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    opacity: 0;
+    animation: skillText .5s 1.5s linear forwards;
+}
+
+@keyframes skillText {
+    100% {
+        opacity: 1;
+    }
+}
+
+.progress_line.Design span::before {
+    content: "85%";
+}
+
+.progress_line.Research span::before {
+    content: "75%";
+}
+
+.progress_line.Marketing span::before {
+    content: "70%";
+}
+
+.progress_line.Strategy span::before {
+    content: "90%";
+}
+
+/* skill part end here  */
+
+/* main_service part start here  */
+#main_service {
+    background: url(../images/mainsrvicebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main_service_overly {
+    padding: 100px 0 50px 0;
+    background: rgba(23, 124, 187, 0.831);
+}
+
+.main_service_head {
+    text-align: center;
+}
+
+.main_service_head h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.main_service_head p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding-top: 27px;
+    padding-bottom: 46px;
+}
+
+.main_service_item {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+    margin-right: 20px;
+}
+.col-lg-4{
+    padding: 0 !important;
+}
+.main_item_text h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.main_item_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #a7c5dd;
+
+}
+
+/* main_service part end here  */
+
+/* review part start here  */
+.review_contant {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.review_img {
+   position: relative;
+
+}
+
+.review_img img {
+    width: 100%;
+}
+
+.img_hver {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: .3s;
+    background: rgba(0, 0, 0, 0.613);
+}
+
+.review_img:hover .img_hver{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.review_img:hover {
+    cursor: pointer;
+}
+.para1 {
+	position: absolute;
+    top: 0;
+    left: 0;
+	height: 100%;
+	width: 100%;
+}
+.para1 p{
+    z-index: 99;
+    color: rgb(0, 0, 0);
+}
+/* review part end here  */
+
+/* protfoilo part start here  */
+#protfolio{
+    background: url(../images/scnd_bg_overly.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.protfolio_head{
+    text-align: center;
+}
+.protfolio_head h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color:#000;
+}
+.portfoilo_btn{
+    text-align: center;
+    margin-top: 25px;
+}
+.portfoilo_btn button{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    background: none;
+    color:#177bbb;
+    transition: .3s;
+}
+.portfoilo_btn button:hover{
+    border: 2px solid #177bbb;
+}
+.protfoilo_body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    margin-top: 45px;
+}
+.protfoilo_item{
+    position:relative;
+    overflow: hidden;
+}
+.protfoilo_overly{
+    position: absolute;
+    left: 0;
+    bottom: -30%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.549);
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: .3s;
+} 
+.protfoilo_item:hover .protfoilo_overly{
+    bottom: 0;
+}
+.prt_img_buttn{
+    text-align: center;
+    margin-top: 50px;
+}
+.prt_img_buttn button{
+    background: none;
+    border: 1px solid #177bbb;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color:#177bbb;
+    padding: 14px 30px;
+    transition: .3s;
+}
+.prt_img_buttn button:hover{
+    background: #177bbb;
+    color: white;
+}
+/* protfoilo part end here  */
+/* partner part start here  */
+#partner{
+    padding: 100px 0;
+}
+.partner_body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+}
+/* partner part end here  */
+
+/* last_blog part start here  */
+#last_blog{
+    padding: 100px 0;
+    background: #323232;
+}
+.blog_head{
+    text-align: center;
+}
+.blog_head h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.last_blog_body{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+}
+
+.blog_img{
+    position: relative;
+    overflow: hidden;
+}
+.blog_img_hvr{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    background: #1d608da6;
+    bottom: -40%;
+    left: 0;
+    transition: .4s;
+}
+.blog_hvr_left{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+.blog_hvr_left span{
+ font-size: 16px;
+font-weight: 400;
+font-family: 'Roboto', sans-serif;
+color: white;
+text-transform: uppercase;
+}
+.blog_hvr_right{
+    display: flex;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+}
+.blog_hvr_right span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.blog_item_text h3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-top: 26px;
+    padding-bottom: 14px;
+}
+.blog_item_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fffefea6;
+}
+.bolg_item:hover .blog_img_hvr{
+    bottom: 0;
+    cursor: pointer;
+}
+/* last_blog part end here  */
+
+/* site_map part start here  */
+.sit_map iframe{
+    width: 100%;
+}
+/* site_map part end here  */
+
+/* contact part start here  */
+#contact{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contact_info_head h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.contact_info_head p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #242222;
+    padding: 45px 0;
+}
+.contact_bttm_itm p{
+margin-bottom: 30px;
+font-size: 14px;
+font-weight: 400;
+font-family: 'Roboto', sans-serif;
+color: #177bbb;
+}
+.contact_bttm_itm p i{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.contact_right_head h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding-bottom: 45px;
+}
+label{
+    width: 100%;
+    border: 1px solid #177bbb;
+    margin-bottom: 20px;
+}
+label input{
+    padding: 15px 20px;
+    border: none;
+   
+}
+label input::placeholder{
+    color: #177bbb;
+}
+label input::focus{
+     color: red;
+}
+textarea{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+textarea::placeholder{
+    color: #177bbb;
+}
+.msg_bgn button{
+width: 100%;
+padding: 10px 0;
+background: #177bbb;
+border: none;
+color: white;
+font-size: 20px;
+}
+/* contact part end here  */
+
+/* footer part start here  */
+#footer{
+    padding: 50px 0;
+    background: #191919;
+}
+.footer_item{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.footer_icon{
+    height: 70px;
+    width: 60px;
+    background: #000;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 15px;
+}
+.footer_item a{
+font-size: 25px;
+color: white;
+}
+.copye_right{
+    text-align: center;
+}
+.copye_right p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+/* footer part end here  */
+
+#btn_hide{
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.btn_show{
+    visibility: visible !important;
+    opacity: 1 !important;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
